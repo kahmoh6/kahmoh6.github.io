@@ -24,7 +24,31 @@
   <!--Visible content of the web site goes here -->
   <! Example: text, image, links, buttons -->
   <h1> Main Heading 1 </h1>
+  
   <h2> Subheading 2 </h2>
+  <!-- Ordered List (ul)-->
+  <!-- Display items with bullet points -->
+  <h2> Ordered List Example </h2>
+  <ul> 
+       <li> Apple </li>
+       <li> Bananas </li>
+       <li> Cherries </li>
+  </ul>
+<!-- Ordered List (ol)> 
+<h2> Ordered List Example </h2>
+<ol>
+     <li> Wake up </li>
+     <li> Brush teeth </li>
+     <li> Have breakfast </li>
+</ol> 
+<!-- Ordered List with letters -->
+<h2> Ordered List with letters </h2>
+<ol type="A">
+     <li> Fisrt option </li>
+     <li> Second option </li>
+     <li> Third option </li>
+</ol>        
+       
   <h3> Smaller heading </h3>
   <h4> Heading Level 4 </h4>
   <h5> Heading Level 5 </h5>
