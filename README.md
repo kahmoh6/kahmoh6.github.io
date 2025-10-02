@@ -28,7 +28,7 @@
   <h2> Subheading 2 </h2>
   <!-- Ordered List (ul)-->
   <!-- Display items with bullet points -->
-  <h2> Ordered List Example </h2>
+  <h2> Unordered List Example </h2>
   <ul> 
        <li> Apple </li>
        <li> Bananas </li>
