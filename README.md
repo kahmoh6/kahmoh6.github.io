@@ -21,18 +21,18 @@
   <body>
   <!--Visible content of the web site goes here -->
   <! Example: text, image, links, buttons -->
-  #Main Heading 1
-  ##Subheading 2
-  ###Smaller heading
-  ####Heading Level 4
-  #####Heading Level 5
-  ######Heading Level 6
+  <h1> Main Heading 1 </h1>
+  <h2> Subheading 2 </h2>
+  <h3> Smaller heading </h3>
+  <h4> Heading Level 4 </h4>
+  <h5> Heading Level 5 </h5>
+  <h6> Heading Level 6 </h6>
   <!-- Paragraphs -->
   <p>This is the paragraph of text. Paragraph are use to add readable blocks of content.</p>
   <p>Each paragraph is automatically separated with some spacing above and below.</p>
   <!-- Links -->
   <!-- The <a> tag is use for hyperlinks -->
-  <a href="https://eleken.com">Visit Eleken Website</a> <br>
+  <a href="https://www.depo.studio/">Visit Depo Website</a> <br>
   <a href="https://codewithdhanian.gumroad.com/l/gzjvj">Check out the the full stack Ebook</a>
   
   </body>
