@@ -23,6 +23,19 @@
   <body>
   <!--Visible content of the web site goes here -->
   <! Example: text, image, links, buttons -->
+  <!-- Basic Image -->
+  <!-- src = path or URL of the image -->
+  <!-- alt = alternative text if image fails to load -->
+  <h2> Basic Image Example </h2>
+  <img src ="image.jpg" alt="A sample image">
+  <!-- Image with width and height -->
+  <h2> Image with Dimensions </h2>
+  <img src="landscape.jpg" alt="Beautiful landscape" width="300" height="200">
+  <!-- External image from a URL -->
+  <h2> External Image Example </h2>
+  <img src="https://share.google/images/OwaSIfLHjyNFzCjfk" alt="Exampel Website logo">
+  <!-- Accessibility tip: always use alt text for screen readers -->
+  
   <h1> Main Heading 1 </h1>
   
   <h2> Subheading 2 </h2>
