@@ -2,7 +2,6 @@
 <!--DOCTYPE Declaration -->
 
 <!DOCTYPE html>
-
 <!--Root HTML Tag -->
 <html>
 <!-- Head Section-->
