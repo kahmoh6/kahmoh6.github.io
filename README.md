@@ -1,6 +1,5 @@
 <!--Day 1: Basic HTML Structure Cheatsheet -->
 <!--DOCTYPE Declaration -->
-<!DOCTYPE html>
 <!--Root HTML Tag -->
 <html>
 <!-- Head Section-->
@@ -21,12 +20,12 @@
   <body>
   <!--Visible content of the web site goes here -->
   <! Example: text, image, links, buttons -->
-  <h1>Main Heading 1</h1>
-  <h2>Subheading 2</h2>
-  <h3>Smaller heading</h3>
-  <h4>Heading Level 4</4>
-  <h5>Heading Level 5</5>
-  <h6>Heading Level 6</h6>
+  #Main Heading 1
+  ##Subheading 2
+  ###Smaller heading
+  ####Heading Level 4
+  #####Heading Level 5
+  ######Heading Level 6
   <!-- Paragraphs -->
   <p>This is the paragraph of text. Paragraph are use to add readable blocks of content.</p>
   <p>Each paragraph is automatically separated with some spacing above and below.</p>
