@@ -35,12 +35,13 @@
        <li> Cherries </li>
   </ul>
 <!-- Ordered List (ol)> 
+<!-- Display items with numbers (1, 2, 3) -->
 <h2> Ordered List Example </h2>
 <ol>
-     <li> Wake up </li>
-     <li> Brush teeth </li>
-     <li> Have breakfast </li>
-</ol> 
+      <li> Wake up </li> 
+      <li> Brush teeth </li> 
+      <li> Have breakfast </li> 
+</ol>
 <!-- Ordered List with letters -->
 <h2> Ordered List with letters </h2>
 <ol type="A">
