@@ -1,6 +1,8 @@
 <!--Day 1: Basic HTML Structure Cheatsheet -->
 <!--DOCTYPE Declaration -->
+
 <!DOCTYPE html>
+
 <!--Root HTML Tag -->
 <html>
 <!-- Head Section-->
