@@ -1,83 +1,41 @@
-# kahmoh6.github.io
-clothing-boutique/
-│── backend/              # Node.js + Express API
-│   ├── models/           # Product, User, Order schemas
-│   ├── routes/           # API endpoints
-│   ├── controllers/      # Logic for products/cart/orders
-│   ├── server.js         # Main server file
-│── frontend/             # React + Tailwind frontend
-│   ├── src/
-│   │   ├── pages/        # Home, Shop, Product, Cart, Checkout
-│   │   ├── components/   # Navbar, Footer, ProductCard, etc.
-│   │   ├── context/      # Cart + Auth state
-│   │   └── App.js
-│── package.json
-// src/pages/Home.js
-import { useEffect, useState } from "react";
-import ProductCard from "../components/ProductCard";
-
-export default function Home() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:5000/api/products")
-      .then(res => res.json())
-      .then(data => setProducts(data));
-  }, []);
-
-  return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold mb-6">Welcome to Luxe Boutique</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {products.map(p => (
-          <ProductCard key={p._id} product={p} />
-        ))}
-      </div>
-      // src/pages/Home.js
-import { useEffect, useState } from "react";
-import ProductCard from "../components/ProductCard";
-
-export default function Home() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:5000/api/products")
-      .then(res => res.json())
-      .then(data => setProducts(data));
-  }, []);
-
-  return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold mb-6">Welcome to Luxe Boutique</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {products.map(p => (
-          <ProductCard key={p._id} product={p} />
-        ))}
-      </div>
-    </div>
-  );
-}
-// backend/routes/productRoutes.js
-import express from "express";
-import Product from "../models/Product.js";
-
-const router = express.Router();
-
-// Get all products
-router.get("/", async (req, res) => {
-  const products = await Product.find();
-  res.json(products);
-});
-
-// Add a product
-router.post("/", async (req, res) => {
-  const newProduct = new Product(req.body);
-  await newProduct.save();
-  res.json(newProduct);
-});
-
-export default router;
-
-    </div>
-  );
-}
+<!--Day 1: Basic HTML Structure Cheatsheet -->
+<!--DOCTYPE Declaration -->
+<!DOCTYPE html>
+<!--Root HTML Tag -->
+<html>
+<!-- Head Section-->
+<head>
+<!--Title of the page (appears on browsers tab)-->
+<title>My Page</title>
+<!-- Meta Tnformation -->
+<meta charset="UTF-8"> <!-- Sets character encoding -->
+<meta name='description" content=" Basic HTML structure example">
+<meta name="keywords" content="HTML, basics, cheatsheet">
+<meta name="author" content="Dhanian">
+<!-- External CSS Link -->
+<link rel="stylesheet" href="style.css">
+<!-- JavaScript File-->
+<script src="script.js"></script>
+  </head>
+  <!--Body Section -->
+  <body>
+  <!--Visible content of the web site goes here -->
+  <! Example: text, image, links, buttons -->
+  <h1>Main Heading 1</h1>
+  <h2>Subheading 2</h2>
+  <h3>Smaller heading</h3>
+  <h4>Heading Level 4</4>
+  <h5>Heading Level 5</5>
+  <h6>Heading Level 6</h6>
+  <!-- Paragraphs -->
+  <p>This is the paragraph of text. Paragraph are use to add readable blocks of content.</p>
+  <p>Each paragraph is automatically separated with some spacing above and below.</p>
+  <!-- Links -->
+  <!-- The <a> tag is use for hyperlinks -->
+  <a href="https://eleken.com">Visit Eleken Website</a> <br>
+  <a href="https://codewithdhanian.gumroad.com/l/gzjvj">Check out the the full stack Ebook</a>
+  
+  </body>
+  </html>
+  
+  
