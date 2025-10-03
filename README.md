@@ -25,30 +25,41 @@
 <!-- Usually contains navigation, logo, or introduction -->
 <header>
   <h1> My Website </h1>
+  <h2> John Doe </h2>
+  <p> Frontend Developer</p
 <nav>
-  <a href="#home">Home</a><br>
-  <a href="#about">About</a><br>
+  <a href="#habout">About</a><br>
+  <a href="#projects">Projects</a><br>
   <a href="#contact">Contact</a><br>
  </nav> 
 </header>
 
-<!-- Section -->
-<!-- Groups related content -->
-<section>
-<h2> About us </h2>
-<p>This section describes what the website is about. And is all about Big KahMoh and his Big dreams.</p>
+<!-- About Section -->
+<section id="about">
+<h2> About Me </h2>
+<p>Hello! I am a passionnate developer learning HTML, CSS, and Javascript.I love building, responsive, and user-friendly website. And is all about Big KahMoh and his Big dreams.</p>
 </section>
 
-<!--Article -->
-<!-- Independent, self-contained content like blog posts -->
+<!-- Projects Section -->
+<section id="projects">
+<h2>My Projects</h2>
+<ul>
+  <li> Personal Blog Website </li>
+  <li> Simple E-commerce Page </li>
+  <li> Portfolio Website </li>
+</ul>
+</section>
+
+<!-- Highlighted Project as an Article -->
 <article> 
-<h2> Blog Post Title </h2>
-  <p> This is a simple blog post. It can stand on its own. </p>
+<h2> Featured Project: Portfolio Website </h2>
+  <p> This project is a simple portfolio page built with HTML. It includes a header, about section, project showcase, and footer with contact information </p>
 </article>
+
 <!-- Footer Section -->
-<!-- Contain copyrigt, links, or contact info -->
-<footer>
-<p>&copy; 2025 My Website. All rights reserved.</p>
+<footer id="contact">
+  <p>Contact me at: ndumnankam@gmail.com</p>
+<p>&copy; 2025 Nankam Ndum. All rights reserved.</p>
 </footer>
 
   <!-- form Container -->
