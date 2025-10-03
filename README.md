@@ -21,6 +21,36 @@
   <!--Body Section -->
   <body>
   <!--Visible content of the web site goes here -->
+  <!-- form Container -->
+  <!-- action = where the data is sent -->
+  <!-- mwthod = how the data is sen (GET or POST) -->
+<h2> Simple Form Example </h2>  
+<form action="/submit" method="post">
+
+<!-- Text Input -->
+<label for= "username"> Username:</label>
+<input type="text" to="username" name="username">
+<br><br>
+
+<!-- Password Input -->
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<br><br>
+
+<!-- Email Input -->
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br><br>
+
+<!-- Number Input -->
+<label for="age">Age:</label>
+<input type="number" id="age" name="age">
+<br><br>
+
+<!-- Submit Button -->
+<input type="submit" value="Submit">
+</form>
+  
   <! Example: text, image, links, buttons -->
   <!-- Basic Image -->
   <!-- src = path or URL of the image -->
