@@ -21,9 +21,39 @@
   <!--Body Section -->
   <body>
   <!--Visible content of the web site goes here -->
+<!-- Header Section -->
+<!-- Usually contains navigation, logo, or introduction -->
+<header>
+  <h1> My Website </h1>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+ </nav> 
+</header>
+
+<!-- Section -->
+<!-- Groups related content -->
+<section>
+<h2> About us </h2>
+<p>This section describes what the website is about. And is all about Big KahMoh and his Big dreams.</p>
+</section>
+
+<!--Article -->
+<!-- Independent, self-contained content like blog posts -->
+<article> 
+<h2> Blog Post Title </h2>
+  <p> This is a simple blog post. It can stand on its own. </p>
+</article>
+<!-- Footer Section -->
+<!-- Contain copyrigt, links, or contact info -->
+<footer>
+<p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
+
   <!-- form Container -->
   <!-- action = where the data is sent -->
-  <!-- mwthod = how the data is sen (GET or POST) -->
+  <!-- method = how the data is sen (GET or POST) -->
 <h2> Simple Form Example </h2>  
 <form action="/submit" method="post">
 
