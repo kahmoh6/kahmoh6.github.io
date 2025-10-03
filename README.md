@@ -14,6 +14,43 @@
 <meta name="keywords" content="HTML, basics, cheatsheet">
 <meta name="author" content="Dhanian">
 <!-- External CSS Link -->
+    <style>
+/* Element Selector */
+/* Styles all paragraph elements */
+p{
+   color: blue;
+   font-size: 16px;
+   }
+/* ID Selector */
+/* Styles the element with id="header */
+  #header{
+    bacground-color: lightgray;
+    text-align: center;
+  }
+/* Class Selector */
+/* Styles all elements with Class="button" */
+.button {
+     background-color: green;
+     color: white;
+     padding: 10px;
+   }
+ /* Universal Selector */
+ /* Applies styles to all elements */
+     *{
+        margin: 0;
+        padding: 0;
+     }
+/* Group Selector */
+/* Styes multitude elements at once */
+  h1, h2, p {
+  font-family: Arial, sans-serif;
+}
+/* Descendant Selector */
+/* styles all paragraphs inside div elements */
+div p {
+     color: darkred;
+  }
+  </style>
 <link rel="stylesheet" href="style.css">
 <!-- JavaScript File-->
 <script src="script.js"></script>
