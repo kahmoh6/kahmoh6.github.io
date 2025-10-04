@@ -17,6 +17,37 @@
     <style>
 /* Element Selector */
 /* Styles all paragraph elements */
+/* Text Color */
+/* changes text color */
+p {
+color: blue;
+}
+/* Background Color */
+/* Applies a solid background color */
+body {
+background-color: lightgray;
+}
+/* Background Image */
+/* Sets an image as background*/
+div {
+background-image: url("background.jpg");
+background-repeat: no repeat; /* Prevent repeating */
+background-size: cover;       /*Stretches image to cover element*/
+background-position: center;  /*Centers the image */
+}
+/* Borders */
+/* Add border with width, style, and color */
+h1 {
+   border: 2px solid black;         /* solid border */
+}
+p {
+   border: 3px dashed red;        /* Dashed border */
+   }
+div {
+    border: 4px dotted green;     /* Dotted border*/
+    }
+
+    
 p{
    color: blue;
    font-size: 16px;
@@ -24,7 +55,7 @@ p{
 /* ID Selector */
 /* Styles the element with id="header */
   #header{
-    bacground-color: lightgray;
+    background-color: lightgray;
     text-align: center;
   }
 /* Class Selector */
