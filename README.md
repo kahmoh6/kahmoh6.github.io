@@ -44,10 +44,44 @@ p {
    border: 3px dashed red;        /* Dashed border */
    }
 div {
-    border: 4px dotted green;     /* Dotted border*/
+    border: 4px dotted green;     /* Dotted border */
     }
-
     
+/*--------- Fonts ---------*/
+/* Set the font family */
+p {
+   font-size: Arial, Helvetica, sans-serif; /* Fallback fonts */
+}
+/* Set the font size */
+h1 {
+   font-size: 32px; /* can also use em, rem, % */
+   }
+   /* Make text bold or light */
+h2 {
+font-weight: bold; /* values: normal, bold, 100-900 */
+}
+/* Italicize text */
+em {
+   font-style: italic; /* values: normal, italic, oblique */
+   }
+
+   /*--------- Text Spacing --------- */
+   /* control line spacing (vertical) */
+   p {
+      line-height: 1.6; /* times the font size */
+      }
+    /* space between letters */
+    h1 {
+       letter-spacing: 2px;
+       }
+    /* spacing between words */
+    h2 {
+    word-spacing: 5px;
+
+/* Align text */
+ p {   
+ text-align: justify; /* values: left, right, center, justify */
+    }
 p{
    color: blue;
    font-size: 16px;
