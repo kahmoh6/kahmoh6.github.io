@@ -46,8 +46,39 @@ p {
 div {
     border: 4px dotted green;     /* Dotted border */
     }
-    
-/*--------- Fonts ---------*/
+/* --------- CSS Box Model Practice --------- */
+/* Basic box setup */
+div {
+   width: 300px;          /* Content area width */
+   height: 150px;         /* Content area height */
+   background-color: lightgray;  /* Background for visibility */
+    }
+/* Add padding (inside spacing) */
+    div {
+      padding: 20px;              /* Equal padding on all sides */
+      /* padding: 10px 20px;      Top/Bottom 10px, Left/Right 20px */
+      }
+ /* Add border (between padding and margin) */
+    div {
+        border: 2px solid black;     /* Border width, style, and color */
+        }
+        /* Add margin (outside spacing) */
+        div {
+            marging: 30px;        /* Equal margin around the box */
+            /* margin: 20px 40px;        Top/Bottom 20px, Left/Right 40px */
+            }
+/* Visual demostration of nested boxes */
+ .container {
+    background-color: #f2f2f2;
+    padding: 40px;             /* Spacing inside the container */
+    }
+    .box {
+            background-color: white;
+            padding: 20px;
+            margin:10px;
+            border: 1px solid #999;
+    }
+/* --------- Fonts --------- */
 /* Set the font family */
 p {
    font-size: Arial, Helvetica, sans-serif; /* Fallback fonts */
