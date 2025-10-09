@@ -156,7 +156,7 @@ div p {
   <!--Visible content of the web site goes here -->
 <!-- Header Section -->
 <!-- Usually contains navigation, logo, or introduction -->
-<header>
+<header class="site-header">
   <h1> My Website </h1>
   <h2> John Doe </h2>
   <p> Frontend Developer</p
