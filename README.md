@@ -230,7 +230,7 @@ div p {
   <!-- src = path or URL of the image -->
   <!-- alt = alternative text if image fails to load -->
   <h2> Basic Image Example </h2>
-  <img src ="image.jpg" alt="A sample image">
+  <img src ="Screenshot_20250330-092835.jpg" alt="A sample image">
   <!-- Image with width and height -->
   <h2> Image with Dimensions </h2>
   <img src="landscape.jpg" alt="Beautiful landscape" width="300" height="200">
