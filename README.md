@@ -236,7 +236,7 @@ div p {
   <img src="Screenshot_20251004-232847.jpg" alt="Beautiful landscape" width="300" height="200">
   <!-- External image from a URL -->
   <h2> External Image Example </h2>
-  <img src="https://share.google/images/OwaSIfLHjyNFzCjfk" alt="Exampel Website logo">
+  <img src="c7b129da4f54fa0b582339b7aa6d3eda.png" alt="Exampel Website logo">
   <!-- Accessibility tip: always use alt text for screen readers -->
   
   <h1> Main Heading 1 </h1>
