@@ -233,7 +233,7 @@ div p {
   <img src ="Screenshot_20250330-092835.jpg" alt="A sample image">
   <!-- Image with width and height -->
   <h2> Image with Dimensions </h2>
-  <img src="landscape.jpg" alt="Beautiful landscape" width="300" height="200">
+  <img src="Screenshot_20251004-232847.jpg" alt="Beautiful landscape" width="300" height="200">
   <!-- External image from a URL -->
   <h2> External Image Example </h2>
   <img src="https://share.google/images/OwaSIfLHjyNFzCjfk" alt="Exampel Website logo">
